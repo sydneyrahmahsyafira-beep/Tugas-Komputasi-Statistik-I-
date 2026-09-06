@@ -1,0 +1,61 @@
+#1. VECTOR NUMERIC, VECTOR INTEGER, VECTOR LOGICAL, VECTOR CHARACTER
+# VECTOR NUMERIC
+nilai <- c(25, 30, 35, 40)
+print(nilai)
+# VECTOR INTEGER
+angka <- c(5L, 6L, 7L, 8L)
+print(angka)
+# VECTOR LOGICAL
+jawaban <- c(TRUE, FALSE, TRUE, FALSE)
+print(jawaban)
+# VECTOR CHARACTER
+kelas <- c("Statistika", "Sipil", "Informatika", "Industri")
+print(kelas)
+
+#2. MATRIX 4x4
+Mat4 <- matrix(1:16, nrow = 4, ncol = 4)
+Mat4
+
+#3. ARRAY 4D
+A <- array(1:16, dim = c(2, 2, 2, 2))
+A
+
+#4. DATA FRAME KOLOM 4 : ( CHARACTER, NUMERIC, LOGICAL, LOGICAL)
+data_nilai <- data.frame(
+  nama = c("A", "B", "C", "D"),
+  nilai = c(85.5,90.0, 78.5, 88.0),
+  lulus = c(TRUE, TRUE, FALSE, TRUE),
+  aktif = c(TRUE, TRUE, TRUE, FALSE)
+)
+data_nilai
+
+#5. LIST 5 KOMPONEN : ( VECTOR BARIS, VECTOR KOLOM, MATRIX 4x4, DATA FRAME 4 KOLOM. LIST ISI 4 (MATRIX 4x4, ARRAY 4D, DATA FRAME, VECTOR BARIS) )
+vector_baris <- c( 1, 2, 3, 4)
+vector_kolom <- c(5, 6, 7, 8)
+matrix_4x4 <- matrix(1:16, nrow = 4, ncol = 4)
+array_4d <- array(1:16, dim = c(2, 2, 2, 2))
+# Membuat data frame 4 kolom
+data <- data.frame(
+  nama = c("Andi", "Budi", "Citra", "Dina"),
+  nilai = c(80, 90, 75, 85),
+  lulus = c(TRUE, TRUE, FALSE, TRUE),
+  aktif = c(TRUE, TRUE, TRUE, FALSE)
+)
+data
+# Membuat list 4 komponen
+list_4 <- list(
+  matrix_4x4,
+  array_4d,
+  data,
+  vector_baris
+)
+list_4
+# Membuat list 5 komponen
+list_5 <- list(
+  vector_baris,
+  vector_kolom,
+  matrix_4x4,
+  data,
+  list_4
+)
+list_5
