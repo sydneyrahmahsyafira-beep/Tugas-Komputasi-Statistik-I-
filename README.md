@@ -1,4 +1,4 @@
-# Tugas-Komputasi-Statistiks-I
+# Tugas-Komputasi-Statistika-I
 Sydney Rahmah Syafira
 3338250001
 3B
