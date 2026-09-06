@@ -1,16 +1,17 @@
 #1. VECTOR NUMERIC, VECTOR INTEGER, VECTOR LOGICAL, VECTOR CHARACTER
 # VECTOR NUMERIC
 nilai <- c(25, 30, 35, 40)
-print(nilai)
+nilai
 # VECTOR INTEGER
-angka <- c(5L, 6L, 7L, 8L)
-print(angka)
+air_minum <- c(5L, 6L, 7L, 8L)
+air_minum
 # VECTOR LOGICAL
-jawaban <- c(TRUE, FALSE, TRUE, FALSE)
-print(jawaban)
+nilai <- c(75, 80, 55, 90)
+logical <- nilai >= 70
+logical 
 # VECTOR CHARACTER
 kelas <- c("Statistika", "Sipil", "Informatika", "Industri")
-print(kelas)
+kelas
 
 #2. MATRIX 4x4
 Mat4 <- matrix(1:16, nrow = 4, ncol = 4)
